@@ -1,0 +1,49 @@
+.bird {
+  position: absolute;
+  width: 5px;
+  height: 30px;
+  opacity:1;
+  top: 50%;
+  left: 50%;
+}
+
+img {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.pole {
+  position: absolute;
+  background: white;
+}
+
+.gameBox {
+  position: relative;
+  width: 1200px;
+  height: 400px;
+  background: url('background.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 40px;
+}
+
+header {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 72px;
+}
+
+.result {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
